@@ -6,7 +6,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.beto.cucumber.CucumberApplication;
 
 @CucumberContextConfiguration
-@SpringBootTest(classes = CucumberApplication.class) // Substitua pela sua classe principal
+@SpringBootTest(classes = CucumberApplication.class) 
 public class CucumberSpringConfiguration {
-    // Aqui você pode adicionar métodos para configurar beans, se necessário
 }
